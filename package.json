@@ -1,0 +1,9 @@
+{
+  "name": "com.autocore.osmtool",
+  "displayName": "osmtool",
+  "description": "read osm document",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
