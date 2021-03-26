@@ -6,9 +6,7 @@ namespace AutoCore.OSM
 {
     public class OSMReader : MonoBehaviour
     {
-        public string fileName;
-        //private OSMData data;
-        public OSMData GetOSMData()
+        public OSMData GetOSMData(string fileName)
         {
             ReadOSM(fileName, out OSMData data);
             return data;
