@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections;
-using System.IO;
 using System.Xml;
-using UnityEngine;
-using UnityEngine.Networking;
 
 
-public class OSMReader : MonoBehaviour
+public static class OSMReader
 {
     //public Action<OSMData> OnGetOSM;
     //public void ReadOSMData(string path)
     //{
     //    StartCoroutine(GetXMLData(path));
     //}
-    public void ReadOSM(string xml, out OSMData data)
+    public static void ReadOSM(string xml, out OSMData data)
     {
         data = new OSMData();
         XmlDocument xmlDoc = new XmlDocument();
